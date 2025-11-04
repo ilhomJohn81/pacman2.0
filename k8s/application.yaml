@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default            # Проект ArgoCD, можно не менять
   source:
-    repoURL: https://github.com/grifon4ik/pacman2.0.git  # Git-репозиторий
+    repoURL:  https://github.com/ilhomJohn81/pacman2.0 # Git-репозиторий
     targetRevision: main                                # Ветка
     path: k8s                                            # Папка с манифестами
   destination:
